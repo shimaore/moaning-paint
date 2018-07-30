@@ -1,0 +1,27 @@
+{
+  "name": "moaning-paint",
+  "version": "1.0.0",
+  "description": "Start replications for CCNQ4",
+  "main": "server.js",
+  "scripts": {
+    "build": "coffee -c *.coffee.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/shimaore/moaning-paint.git"
+  },
+  "author": "Stéphane Alnet (shimaore)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://gitlab.com/shimaore/moaning-paint/issues"
+  },
+  "homepage": "https://gitlab.com/shimaore/moaning-paint#README",
+  "private": true,
+  "devDependencies": {
+    "coffeescript": "^2.3.1"
+  },
+  "dependencies": {
+    "ccnq4-config": "^1.0.0",
+    "thinkable-ducks": "^12.0.0"
+  }
+}

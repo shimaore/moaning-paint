@@ -1,0 +1,15 @@
+FROM node:alpine
+RUN apk add --no-cache tini
+COPY . /src/app
+WORKDIR /src/app
+ENV NODE_ENV production
+RUN \
+  echo Build \
+  && npm install --only=dev && npm run build && rm -rf node_modules \
+  && npm install --production && npm cache -f clean \
+  && rm -rf \
+    /tmp/npm* \
+  && echo Done
+
+USER node
+ENTRYPOINT ["/sbin/tini","--","node","server.js"]
