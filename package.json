@@ -1,6 +1,6 @@
 {
   "name": "moaning-paint",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Start replications for CCNQ4",
   "main": "server.js",
   "scripts": {

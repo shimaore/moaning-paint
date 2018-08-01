@@ -2,7 +2,7 @@
       cfg = do require './index'
       ducks = require 'thinkable-ducks/config'
       await ducks cfg
-      s = ducks()
+      return
 
     if require.main is module
       main().catch (error) ->
