@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "ccnq4-config": "^1.0.0",
-    "thinkable-ducks": "^13.0.0",
+    "thinkable-ducks": "^13.0.1",
     "tough-rate": "^22.1.1"
   }
 }
