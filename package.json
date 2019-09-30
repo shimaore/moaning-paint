@@ -21,8 +21,8 @@
     "coffeescript": "^2.3.1"
   },
   "dependencies": {
-    "ccnq4-config": "^1.0.0",
-    "thinkable-ducks": "^13.0.1",
-    "tough-rate": "^22.1.1"
+    "ccnq4-config": "^1.0.1",
+    "thinkable-ducks": "^13.1.0",
+    "tough-rate": "^23.1.0"
   }
 }
