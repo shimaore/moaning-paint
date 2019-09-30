@@ -4,7 +4,7 @@
   "description": "Start replications for CCNQ4",
   "main": "server.js",
   "scripts": {
-    "build": "coffee -c *.coffee.md"
+    "build": "npm install coffeescript && coffee -c *.coffee.md"
   },
   "repository": {
     "type": "git",
